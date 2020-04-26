@@ -1,0 +1,25 @@
+.board {
+  margin: 0;
+  background-color: slategrey;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color:white;
+  overflow: hidden;
+}
+
+.score {
+  position: fixed;
+  top: 2vh;
+  right: 5vh;
+}
+
+.start_over {
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: fixed;
+  top: 3vh;
+  left: 3vh;
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+}
